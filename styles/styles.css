@@ -15,15 +15,7 @@
 }
 
 /* shared style */
-h1{
-    font-family: "raleway", sans-serif;
-}
 
-h2{
-    font-family: "inter", sans-serif;
-    
-}
-h6{}
 
 
 /* nav styel */
@@ -33,6 +25,7 @@ header{
     max-height: 698px;
 }
 .logo{
+    font-family: "Inter", sans-serif;
     width: 99px;
     height: 51px;
     font-size: 34px;
@@ -40,6 +33,7 @@ header{
     color: #4E47FF;
 }
 .nav-btn{
+    font-family: "Raleway", sans-serif;
     width: 132px;
     height: 48px;
     color:white;
@@ -64,6 +58,7 @@ header{
     padding-bottom: 152px;
 }
 .banner-heading{
+    font-family: "Raleway", sans-serif;
     max-width: 905px;
     max-height: 152px;
     font-weight: bold;
@@ -73,6 +68,7 @@ header{
     
 }
 .banner-btn{
+    font-family: "Raleway", sans-serif;
     margin: 0 365.5px 0 365.5px ;
     background-color: #4E47FF;
     width: 174px;
@@ -80,4 +76,48 @@ header{
     color: white;
     border: none;
     border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+/* action section */
+.action{
+    width: 1140px;
+    height: 328px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 116px 150px;
+}
+.left-action{
+    width: 517px;
+    height: 203px;
+}
+.action-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.action-subtitle{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.action-btn{
+    font-family: "Raleway", sans-serif;
+    width: 229px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 5px;
+}
+.action-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
