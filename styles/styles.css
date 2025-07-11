@@ -95,6 +95,7 @@ header{
 .left-action{
     width: 517px;
     height: 203px;
+    margin-bottom: 100px;
 }
 .action-title{
     font-family: "Raleway", sans-serif;
@@ -156,6 +157,7 @@ header{
     justify-content: space-around;
     align-items: center;
     padding-left: 10px;
+    
 }
 
 .data-title{
@@ -164,6 +166,7 @@ header{
     font-size: 80px;
     color: #4E47FF;
     line-height: 0;
+    
 
 }
 .data-sub{
@@ -173,6 +176,8 @@ header{
     color: rgba(0, 0, 0, 0.5);
     line-height: 0;
     text-align: center;
+    padding-top: -50px;
+    
 }
 
 /* focus styles */
@@ -230,6 +235,7 @@ header{
     margin: 92px 150px 0;
     align-items: center;
 }
+
 .touch-right{
     padding-left: 250px;
     
@@ -237,7 +243,7 @@ header{
 .touch-title{
     font-family: "Raleway", sans-serif;
     font-weight: bold;
-    font-size: 97px;
+    font-size: 90px;
     color: black;
     
 }
@@ -279,7 +285,7 @@ input[type="button"]{
     font-weight: bold;
     font-size: 16px;
     color: white;
-    width: 497px;
+    width: 502px;
     height: 62px;
     border-radius: 10px;
     background-color: #4E47FF;
@@ -289,12 +295,17 @@ input[type="button"]{
     font-weight: 500;
     font-size: 18px;
 }    
-.name{font-family: "Inter", sans-serif;
+.name{
+    font-family: "Inter", sans-serif;
     font-weight: 500;
-    font-size: 18px;}
+    font-size: 18px;
+}
+    
+
     .msg{font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 18px;}
+
     /* footer style */
     footer{
         margin: 0 auto;
@@ -319,6 +330,7 @@ input[type="button"]{
         text-align: center;
         padding-bottom: 0px;
         line-height: normal;
+    
     }
     .footer-sub{
         font-family: "Inter", sans-serif;
@@ -390,6 +402,7 @@ input[type="button"]{
         display: flex;
         align-items: center;
         gap: 10px;
+        padding-top: 50px;
     }
     img{
         border-radius: 50px;
