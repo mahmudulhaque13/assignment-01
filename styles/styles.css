@@ -17,6 +17,7 @@
 /* shared style */
 
 body{
+    max-width: 1440px;
     background-color: #F5F8FF;
 }
 
@@ -219,5 +220,77 @@ header{
 .focus-img{
     border-radius: 48px;
     margin: 0 150px 71px;
-
 }
+/* touch section */
+.touch{
+    display: flex;
+    max-width: 1140px;
+    max-height: 632px;
+    justify-content: space-between;
+    margin: 92px 150px 0;
+    align-items: center;
+}
+.touch-right{
+    padding-left: 250px;
+}
+.touch-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 97px;
+    color: black;
+    
+}
+input[type="email"]{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    border: 1px solid #D6DDED;
+}
+input[type="text"]{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    border: 1px solid #D6DDED;
+}
+textarea{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    width: 497px;
+    height: 135px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    border: 1px solid #D6DDED;
+}
+input[type="button"]{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    width: 497px;
+    height: 62px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    border: none;}
+.email{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}    
+.name{font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;}
+    .msg{font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;}
