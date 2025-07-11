@@ -173,8 +173,10 @@ header{
     height: 121px;
     display: flex;
     justify-content: space-around;
+    gap: 158px;
     align-items: center;
     padding-left: 10px;
+    
     
 }
 
@@ -240,6 +242,7 @@ header{
     border: none;
     transition-duration: 0.1s;
     cursor: pointer;
+    
 
 }
 
