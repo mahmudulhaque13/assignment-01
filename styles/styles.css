@@ -16,7 +16,9 @@
 
 /* shared style */
 
-
+body{
+    background-color: #F5F8FF;
+}
 
 /* nav styel */
 header{
@@ -170,4 +172,52 @@ header{
     color: rgba(0, 0, 0, 0.5);
     line-height: 0;
     text-align: center;
+}
+
+/* focus styles */
+.focus{
+    width: 1140px;
+    height: 697px;
+    border-radius: 14px;
+    margin:137px 150px 0 ;
+    background-color: white;
+
+}
+.focus-container{
+    padding-top: 5px;
+}
+.focus-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    margin: 71px 312px 0;
+    padding-bottom: 20px;
+
+}
+.focus-sub{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0 326px;
+
+}
+.focus-btn{
+    width: 195px;
+    height: 48px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    margin: 20px 472.5px;
+    border: none;
+
+}
+.focus-img{
+    border-radius: 48px;
+    margin: 0 150px 71px;
+
 }
