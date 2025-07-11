@@ -121,3 +121,53 @@ header{
     height: 328px;
     border-radius: 48px;
 }
+
+/* productive-user section */
+.productive-user{
+    width: 1140px;
+    height: 306px;
+    margin: 0 150px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+}
+.productive-user-container{
+    width: 856px;
+    height: 206px;
+    align-items: center;
+    margin: 50px 142px;
+    padding-top: 25px;
+
+
+}
+.productive-user-title{
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+
+}
+.productive-user-data{
+    width: 856px;
+    height: 121px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.data-title{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+    line-height: 0;
+
+}
+.data-sub{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 0;
+    text-align: center;
+}
