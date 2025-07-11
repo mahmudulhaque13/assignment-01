@@ -232,6 +232,7 @@ header{
 }
 .touch-right{
     padding-left: 250px;
+    
 }
 .touch-title{
     font-family: "Raleway", sans-serif;
@@ -294,3 +295,50 @@ input[type="button"]{
     .msg{font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 18px;}
+    /* footer style */
+    footer{
+        margin: 0 auto;
+        background-color: white;
+        width: 1440px;
+        height: 428px;
+    }
+    .footer-sec{
+        width: 531px;
+        height: 221px;
+        background-color: white;
+        align-items: center;
+        margin: 104px 455px;
+    }
+
+    .footer-title{
+        font-family: "Inter", sans-serif;
+        font-weight: 900;
+        font-size: 100px;
+        color: #4E47FF;
+        padding-top: 100px;
+        text-align: center;
+        padding-bottom: 0px;
+        line-height: normal;
+    }
+    .footer-sub{
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #8987A1;
+        text-align: center;
+        margin-top: -80px;
+    }
+    .footer-links li a{
+        text-decoration: none;
+        color: #8987A1;
+        width: 401px;
+        height: 24px;
+        gap: 48px;
+    }
+    .footer-links li{
+        list-style: none;
+        display: inline;
+        margin-right: 25px;
+        margin-left: 30px;
+
+    }
